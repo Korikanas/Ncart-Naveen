@@ -2,7 +2,7 @@
 export const blogPosts = [
   {
     id: 1,
-    title: "The Future of Smartphones: What to Expect in 2024",
+    title: "The Future of Smartphones: What to Expect in 2026",
     excerpt: "Discover the latest trends and innovations in smartphone technology for the coming year.",
     content: "The smartphone industry is constantly evolving, with new features and technologies emerging every year. In 2024, we expect to see foldable phones becoming more mainstream, improved battery technology, and enhanced AI capabilities that will revolutionize how we interact with our devices.",
     author: "Tech Insider",
@@ -60,4 +60,5 @@ export const blogPosts = [
     category: "Laptops",
     image: "img/vs.jpg"
   }
+
 ];
