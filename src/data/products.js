@@ -2,7 +2,7 @@ export const initialProducts = [
   // New
   { id: "p-s22", name: "SAMSUNG Galaxy S22 5G (8GB/128GB)", price: 59999, category: "new", img: "img/s22.jpg", rating: 5, reviews: 725, desc: "6.1” FHD+ | 50MP | 3700 mAh | Snapdragon 8 Gen 1" },
   { id: "p-airmax", name: "Apple AirPods Max (Sky Blue)", price: 59899, category: "new", img: "img/Airpods.webp", rating: 5, reviews: 70, desc: "Bluetooth | Smart Case | USB‑C to Lightning" },
-  { id: "p-15pm", name: "iPhone 15 Pro Max (256 GB)", price: 139990, category: "new", img: "img/iPhone_15 - Copy.jpg", rating: 5, reviews: 1235, desc: "6.7” Super Retina XDR | A17 Pro | 48MP" },
+  { id: "p-15pm", name: "iPhone 15 Pro Max (256 GB)", price: 139990, category: "new", img: "img/iPhone_15.jpg", rating: 5, reviews: 1235, desc: "6.7” Super Retina XDR | A17 Pro | 48MP" },
   { id: "p-watch5", name: "Samsung Watch 5 Pro LTE", price: 49999, category: "new", img: "img/Samsung Watch.jpg", rating: 5, reviews: 75, desc: "AMOLED | LTE calling | GPS | Titanium" },
 
   // Mobiles
@@ -29,3 +29,4 @@ export const INR = new Intl.NumberFormat("en-IN", {
   maximumFractionDigits: 0 
 
 });
+
