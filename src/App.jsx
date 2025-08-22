@@ -24,7 +24,7 @@ export default function App() {
   const [showPayment, setShowPayment] = useState(false); // Payment modal state
   const [user, setUser] = useState({
   name: "korikana naveen",
-  email: "naveen.koeikanas@gmail.com",
+  email: "naveen.korikanas@gmail.com",
   address: "123 Main St, City, Country",
   orders: 0,
   profileImage: null // Add this field
