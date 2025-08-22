@@ -16,10 +16,10 @@ export const initialProducts = [
   { id: "l-galaxybook3", name: "Samsung Galaxy Book3 i5 (16\")", price: 131391, category: "Laptops", img: "img/book3.jpg", rating: 5, reviews: 123, desc: "16GB/512GB | Win 11 Home" },
 
   // Gadgets
-{id: "n-unitree-go2",name: "Unitree Go2 Robot Dog Quadruped Robotics", price: 899999,category: "new",img: "img/dog.jpg",rating: 4.8,reviews: 312, desc: "AI Mobility | 4D LIDAR | Autonomous Navigation"},
+{id: "n-unitree-go2",name: "Unitree Go2 Robot Dog", price: 899999,category: "new",img: "img/dog.jpg",rating: 4.8,reviews: 312, desc: "AI Mobility | 4D LIDAR | Autonomous Navigation"},
 {id: "g-logi-k480", name: "Logitech K480 Multidevice Bluetooth Tablet Keyboard", price: 2999, category: "Gadgets", img: "img/keybord.jpg",rating: 4.5, reviews: 1485, desc: "Multi-Device | Easy-Switch Dial | Built-in Cradle"},
   { id: "p-15pm", name: "iPhone 15 Pro Max (256 GB)", price: 139990, category: "new", img: "img/iPhone_15.jpg", rating: 5, reviews: 1235, desc: "6.7” Super Retina XDR | A17 Pro | 48MP" },
-{ id: "n-sony-fx6", name: "Sony FX6 Cinema Line Full-Frame Digital Zoom Camera", price: 499999, category: "new", img: "img/cam.jpg", rating: 4.9, reviews: 274, desc: "4K Full-Frame | Fast Hybrid AF | Professional Video"},
+{ id: "n-sony-fx6", name: "Sony FX6 Cinema Line Digital Zoom Camera", price: 499999, category: "new", img: "img/cam.jpg", rating: 4.9, reviews: 274, desc: "4K Full-Frame | Fast Hybrid AF | Professional Video"},
   { id: "g-spigen-pb", name: "Spigen 10000 mAh MagSafe", price: 2399, category: "Gadgets", img: "img/Spigen.jpg", rating: 5, reviews: 764, desc: "20W Wireless | Ultra-compact" },
   { id: "g-buds3", name: "Samsung Galaxy Buds 3 (Silver)", price: 13850, category: "new", img: "img/buds.avif", rating: 4, reviews: 451, desc: "24-bit Hi-Fi | up to 36H | IP57" },
   { id: "n-dji-avata2", name: "DJI Avata 2 Fly More Combo", price: 139000, category: "new", img: "img/dji.jpg", rating: 5, reviews: 734, desc: "4K | Built‑in Prop Guard | POV" },
@@ -32,4 +32,5 @@ export const INR = new Intl.NumberFormat("en-IN", {
   style: "currency", 
   currency: "INR", 
   maximumFractionDigits: 0 
+
 });
