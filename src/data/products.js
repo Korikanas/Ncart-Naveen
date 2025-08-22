@@ -14,7 +14,12 @@ export const initialProducts = [
   // Laptops
   { id: "l-mbp-m3pro", name: "MacBook Pro (M3 Pro, 14\")", price: 187990, category: "Laptops", img: "img/macbook-pro.jpg", rating: 5, reviews: 7, desc: "18GB/512GB | macOS Sonoma" },
   { id: "l-galaxybook3", name: "Samsung Galaxy Book3 i5 (16\")", price: 131391, category: "Laptops", img: "img/book3.jpg", rating: 5, reviews: 123, desc: "16GB/512GB | Win 11 Home" },
-
+{ id: "l-xps13-9340", name: "Dell XPS 13 (9340)", price: 154990, category: "Laptops", img: "img/xps13.jpg", rating: 4, reviews: 89, desc: "16GB/512GB | Windows 11 Pro" },
+{ id: "l-hp-envy-x360", name: "HP Envy x360 2-in-1", price: 114990, category: "Laptops", img: "img/envy-x360.jpg", rating: 4, reviews: 67, desc: "16GB/1TB | Windows 11 Home" },
+{ id: "l-lenovo-slim7", name: "Lenovo Slim 7 Pro X", price: 127490, category: "Laptops", img: "img/lenovo-slim7.jpg", rating: 5, reviews: 145, desc: "32GB/1TB | Windows 11 Home" },
+{ id: "l-asus-zenbook14", name: "ASUS Zenbook 14 OLED", price: 99990, category: "Laptops", img: "img/zenbook14.jpg", rating: 4, reviews: 200, desc: "16GB/512GB | Windows 11 Home" },
+{ id: "l-msi-cyborg15", name: "MSI Cyborg 15 (RTX 4060)", price: 119990, category: "Laptops", img: "img/cyborg15.jpg", rating: 4, reviews: 74, desc: "16GB/512GB | Windows 11 Home" },
+{ id: "l-acer-swiftgo", name: "Acer Swift Go 14", price: 87990, category: "Laptops", img: "img/swiftgo14.jpg", rating: 4, reviews: 52, desc: "16GB/512GB | Windows 11 Home" },
   // Gadgets
 {id: "n-unitree-go2",name: "Unitree Go2 Robot Dog", price: 899999,category: "new",img: "img/dog.jpg",rating: 4.8,reviews: 312, desc: "AI Mobility | 4D LIDAR | Autonomous Navigation"},
 {id: "g-logi-k480", name: "Logitech K480 Multidevice Bluetooth Tablet Keyboard", price: 2999, category: "Gadgets", img: "img/keybord.jpg",rating: 4.5, reviews: 1485, desc: "Multi-Device | Easy-Switch Dial | Built-in Cradle"},
@@ -34,4 +39,5 @@ export const INR = new Intl.NumberFormat("en-IN", {
   maximumFractionDigits: 0 
 
 });
+
 
