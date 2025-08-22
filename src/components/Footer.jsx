@@ -11,7 +11,7 @@ export default function Footer() {
             <a className="underline" href="https://www.youtube.com/channel/UCZTi82unr7fQHUPfY3jmTNA" target="_blank">YouTube</a>
             <a className="underline" href="https://www.facebook.com/naveen.korikana.9" target="_blank">Facebook</a>
           </div>
-          <p className="mt-4 text-xs">&copy; 2024 Ncart. All Rights Reserved - Korikanas</p>
+          <p className="mt-4 text-xs">&copy; 2025 Ncart. All Rights Reserved - Korikanas</p>
         </div>
         <div>
           <h4 className="text-lg font-bold">Feedback</h4>
@@ -30,4 +30,5 @@ export default function Footer() {
       </div>
     </footer>
   );
+
 }
